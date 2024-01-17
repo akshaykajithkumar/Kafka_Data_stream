@@ -1,30 +1,3 @@
-// package main
-
-// import (
-// 	"fmt"
-// 	"log"
-// 	"os"
-// 	"os/signal"
-// 	"sync"
-
-// 	"github.com/IBM/sarama"
-// )
-
-// const (
-// 	topic = "your_topic"
-// )
-
-// func main() {
-// 	config := sarama.NewConfig()
-// 	config.Consumer.Return.Errors = true
-
-// consumer, err := sarama.NewConsumer([]string{"localhost:9092"}, config)
-//
-//	if err != nil {
-//		log.Fatalf("Error creating consumer: %v", err)
-//	}
-//
-// defer consumer.Close()
 package main
 
 import (
